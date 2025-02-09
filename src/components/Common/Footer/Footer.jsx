@@ -82,23 +82,23 @@ const Footer = () => {
           <h4 className="mt-lg-0 mt-sm-3">Contact Info </h4>
 
           <div className="d-flex align-items-center">
-            <p className="pb-2"> Dehradun, Uttarakhand, India</p>
+            <p className="pb-2"> Greater Noida, UttarPradesh, India</p>
           </div>
 
           <div className="d-flex align-items-top my-2">
           <i className="bi bi-geo-alt me-3"></i>
-          <a target="_blank" href="mailto:rawatcoder@gmail.com" className="d-block" rel="noreferrer" >rawatcoder@gmail.com</a>
+          <a target="_blank" href="mailto:rawatcoder@gmail.com" className="d-block" rel="noreferrer" >baaztechno@gmail.com</a>
           </div>
           <div className="d-flex align-items-top ">
           <i className="bi bi-telephone me-3"></i>
-          <a target="_blank" href="tel:9876543210" className="d-block" rel="noreferrer" >9876543210</a>
+          <a target="_blank" href="tel:9876543210" className="d-block" rel="noreferrer" >9548551920</a>
           </div>
          
           </Col>
         </Row>
         <Row className="py-2 bdr mt-3">
         <Col className="col copyright">
-        <p className="text-light">   @ 2024. rawatcoder All rights reserved </p> 
+        <p className="text-light">   @ 2024. baaztechno All rights reserved </p> 
         </Col>
         </Row>
 
