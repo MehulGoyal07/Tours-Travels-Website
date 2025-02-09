@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "../Footer/footer.css"
-import { Col, Container, Row ,ListGroup} from "react-bootstrap";
+import { Col, Container, ListGroup, Row } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import "../Footer/footer.css";
 
 const Footer = () => {
   const [visible, setVisible]=useState(false);
@@ -87,11 +87,11 @@ const Footer = () => {
 
           <div className="d-flex align-items-top my-2">
           <i className="bi bi-geo-alt me-3"></i>
-          <a target="_blank" href="mailto:rawatcoder@gmail.com" className="d-block" >rawatcoder@gmail.com</a>
+          <a target="_blank" href="mailto:rawatcoder@gmail.com" className="d-block" rel="noreferrer" >rawatcoder@gmail.com</a>
           </div>
           <div className="d-flex align-items-top ">
           <i className="bi bi-telephone me-3"></i>
-          <a target="_blank" href="tel:9876543210" className="d-block" >9876543210</a>
+          <a target="_blank" href="tel:9876543210" className="d-block" rel="noreferrer" >9876543210</a>
           </div>
          
           </Col>
